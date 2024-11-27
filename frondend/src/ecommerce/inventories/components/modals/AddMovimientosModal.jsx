@@ -115,7 +115,7 @@ const AddMovimientosModal = ({ showAddModal, setShowAddModal, fetchData }) => {
     return (
         <Dialog open={showAddModal} onClose={() => setShowAddModal(false)} fullWidth>
             <DialogTitle>
-                <Typography variant="h6">Agregar Series</Typography>
+                <Typography variant="h6">Agregar Movimientos</Typography>
                 <CloseIcon
                     onClick={() => setShowAddModal(false)}
                     style={{ cursor: "pointer", position: "absolute", right: 10, top: 10 }}
